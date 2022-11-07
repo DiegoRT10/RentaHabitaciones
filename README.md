@@ -1,6 +1,13 @@
 # RentaHabitacionesApp
 
+Este proyecto fue realizado pra cunmplir con un laboratorio de analisis de diseno y sistemas 1 en CUNORI 
+Solo es la parrte del fronted esta preparado parea enviar y recibir datos atravez de un appi
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+
+
+# CSS
+
+Se implemento bootstrap para el diseno haciendo uso de la platillas gratis de https://www.creative-tim.com/product/paper-kit-2-angular
 
 ## Development server
 

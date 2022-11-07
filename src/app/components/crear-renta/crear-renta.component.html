@@ -1,0 +1,32 @@
+<div class="main">
+    <div class="section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ml-auto mr-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Carnet o DPI de quien reserva</label>
+                         <input [(ngModel)]="AggRentas.id" type="text" class="form-control" name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Nombre de quien reserva</label>
+                         <input [(ngModel)]="AggRentas.estudiante" type="text" class="form-control" name="nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Recepcionista</label>
+                        <input [(ngModel)]="AggRentas.recepcionista" type="text" class="form-control" name="descripcion">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Tipo de Renta</label>
+                        <input [(ngModel)]="AggRentas.tipoRenta" type="text" class="form-control" name="descripcion">
+                        </div>
+        
+                        <div class="mb-3">
+                            <button  type="button" class="btn btn-success" (click)="AgregarRentas()">Guardar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
